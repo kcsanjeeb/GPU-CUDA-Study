@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="Python 3.11 (NCA-GENL)" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="mac-linux" project-jdk-type="Python SDK" />
 </project>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="san@10.249.190.44:22 key (2)" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="san@10.249.190.44:22 key">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/san/mac-linux/study/NCA-GENL" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="san@10.249.190.44:22 key (2)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/san/mac-linux/study" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
