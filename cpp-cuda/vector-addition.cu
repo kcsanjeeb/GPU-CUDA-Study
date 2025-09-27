@@ -22,15 +22,16 @@ int main() {
 
     // GPU arrays
     float *d_A, *d_B, *d_C;
-    cudaMalloc(&d_A, size);
+    cudaMalloc(&d_A, size);    // Allocates GPU memory
     cudaMalloc(&d_B, size);
     cudaMalloc(&d_C, size);
 
-    // Copy to GPU
-    cudaMemcpy(d_A, h_A, size, cudaMemcpyHostToDevice);
-    cudaMemcpy(d_B, h_B, size, cudaMemcpyHostToDevice);
+    // Copy to GPU // Transfer through PCIe bus
+    cudaMemcpy(d_A, h_A, size, cudaMemcpyHostToDevice);    // CPU→GPU
+    cudaMemcpy(d_B, h_B, size, cudaMemcpyHostToDevice);    // CPU→GPU
 
     // Launch kernel - 2 blocks, 4 threads/block (8 threads total)
+    // Kernel runs on GPU, using GPU memory
     int threadsPerBlock = 4;
     int blocksPerGrid = 2;
     printf("Launching kernel with %d blocks, %d threads/block\n",
