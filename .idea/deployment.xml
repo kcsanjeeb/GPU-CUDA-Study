@@ -2,6 +2,16 @@
 <project version="4">
   <component name="PublishConfigData" autoUpload="Always" serverName="san@10.249.190.44:22 key (3)" remoteFilesAllowedToDisappearOnAutoupload="false">
     <serverData>
+      <paths name="mac-linux (f4ecce50-f555-4196-9e97-1b7e4ad02026)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/san/mac-linux/study/cpp-cuda" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
       <paths name="san@10.249.190.44:22 key">
         <serverdata>
           <mappings>

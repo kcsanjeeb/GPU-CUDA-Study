@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/NCA-GENL.iml" filepath="$PROJECT_DIR$/.idea/NCA-GENL.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/NCA-GENL2.iml" filepath="$PROJECT_DIR$/.idea/NCA-GENL2.iml" />
     </modules>
   </component>
 </project>
